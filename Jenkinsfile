@@ -3,7 +3,7 @@ pipeline {
         label 'linux'
     }
     tools {
-        maven 'M3'
+        maven 'maven-3.5.4'
     }
     stages {
         stage('checkout') {
