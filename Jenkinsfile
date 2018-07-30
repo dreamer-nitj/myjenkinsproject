@@ -4,7 +4,7 @@ pipeline {
     }
     tools {
         maven 'maven-3.5.4'
-        java 'Java 8'
+        jdk 'Java 8'
     }
     stages {
         stage('checkout') {
